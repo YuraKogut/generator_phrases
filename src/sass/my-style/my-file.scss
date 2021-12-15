@@ -1,0 +1,99 @@
+body{
+	overflow-x: hidden;
+}
+.position{
+	background: linear-gradient(
+		180deg, #070034 0%, #7560F8 100%);
+	background-size: 100%;
+	 height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-position-1{
+	position: relative;
+}
+.circle-position-2{
+	position: relative;
+}
+.circle-position-1 button{
+    z-index: 10;
+    position: absolute;
+    width: 250px;
+    height: 72px;
+    left: -133px;
+    border: none;
+    top: 167px;
+    background: #FF9900;
+    border-radius: 8px;
+    font-family: Roboto;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    transition:0.5s;
+}
+.circle-position-1 button:hover{
+	transition: .5s;
+    background: #000;
+    box-shadow: 0 0 20px 0;
+    filter: brightness(0.5);
+}
+.circle-1{
+	position: absolute;
+    width: 450px;
+    height: 450px;
+    left: -233px;
+    top: -244px;
+    bottom: 0px;
+    right: 0;
+    background: linear-gradient(
+151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
+    border-radius: 50%;
+}
+.circle-2{
+	position: absolute;
+    width: 350px;
+    z-index: 20;
+    height: 350px;
+    left: -184px;
+    border-radius: 50%;
+    top: -199px;
+    background: linear-gradient(
+180deg, #16829A 0%, #074E5E 100%),rgb(121, 231, 255 / 20%);
+   
+}
+.shadow-circle{
+	    position: absolute;
+    width: 655px;
+    height: 148px;
+    left: -344px;
+    top: 142px;
+    background: linear-gradient(
+151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
+    filter: blur(60px);
+    border-radius: 50%;
+}
+.block-generator {
+    overflow: hidden;
+    position: absolute;
+    left: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: center;
+    color: #92EBFF;
+    top: 44px;
+    font-size: 16px;
+    width: 75%;
+    padding: 10px;
+    height: 236px;
+}
+.block-generator img{
+	width: 10%;
+    position: relative;
+    top: -8px;
+}
