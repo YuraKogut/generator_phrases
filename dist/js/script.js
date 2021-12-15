@@ -1,11 +1,12 @@
-
 function randomQuote() {
-  fetch('https://api-phrase.herokuapp.com/getPhrase')
+  fetch('https://api-phrase.herokuapp.com/getPhrase?count=1')
   .then((response) => {
     return response.json();
   })
   .then((data) => {
-   document.getElementById('quotation').innerHTML=JSON.stringify(data)
+  	let myString = JSON.stringify(data);
+   document.getElementById('quotation').innerHTML=myString;
+
   }).catch(error =>{
   	console.log(error);
   })
