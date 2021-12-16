@@ -99,12 +99,11 @@ body{
 }
 
 .lds-ring {
-     display: inline-block;
+     display: none;
     position: relative;
     top: -110px;
     left: -43px;
     z-index: 100;
- 
 }
 .lds-ring div {
   box-sizing: border-box;
@@ -135,11 +134,7 @@ body{
     transform: rotate(360deg);
   }
 }
-.active{
-  opacity: 1;
-  display: flex;
 
-}
-.no-active{
-    opacity: 0;
+.active{
+    display: block;
 }

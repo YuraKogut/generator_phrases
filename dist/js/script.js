@@ -32,9 +32,12 @@ $( document ).ready(function(){
 
 $( document ).ready(function(){
 	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
-	      $( ".lds-ring" ).delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
 	  });
 	   $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
-	      $( ".lds-ring" ).delay(1000).fadeIn(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	      $( ".lds-ring" ).addClass('active').delay(100).fadeIn(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	  });
+	    $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
+	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
 	  });
 	});
