@@ -22,22 +22,22 @@ document.querySelector("button").addEventListener('click', randomQuote)
 
 
 $( document ).ready(function(){
-	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом button
-	    $( ".block-generator" ).fadeOut(); // плавно изменяя прозрачность скрываем все элементы <div>
+	  $( ".button" ).click(function(){ // задаєм функцію при ннатисканні на елемент с классом button
+	    $( ".block-generator" ).fadeOut(); // плавно змінюємо прозорість та  приховуємо  всі елементи <div>
 	  });
-	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом button
-	    $( ".block-generator" ).fadeIn(2000); // плавно изменяя прозрачность отображаем все элементы <div>
+	  $( ".button" ).click(function(){ // задаєм функцію при ннатисканні на елемент с классом button
+	    $( ".block-generator" ).fadeIn(2000); // плавно змінюємо прозорість та  відображаємо  всі елементи <div>
 	  });
 	});
 
 $( document ).ready(function(){
-	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом button
-	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	  $( ".button" ).click(function(){ // задаєм функцію при ннатисканні на елемент с классом button
+	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) // плавно змінюємо прозорість та  приховуємо  всі елементи <div>
 	  });
-	   $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом button
-	      $( ".lds-ring" ).addClass('active').delay(100).fadeIn(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	   $( ".button" ).click(function(){ // задаєм функцію при ннатисканні на елемент с классом button
+	      $( ".lds-ring" ).addClass('active').delay(100).fadeIn(300) // плавно змінюємо прозорість та  відображаємо  всі елементи <div>
 	  });
-	    $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом button
-	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	    $( ".button" ).click(function(){ // задаєм функцію при ннатисканні на елемент с классом button
+	      $( ".lds-ring" ).removeClass('active').delay(100).fadeOut(300) //плавно змінюємо прозорість та  приховуємо  всі елементи <div>
 	  });
 	});
