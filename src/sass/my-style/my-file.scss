@@ -5,10 +5,10 @@ body{
 	background: linear-gradient(
 		180deg, #070034 0%, #7560F8 100%);
 	background-size: 100%;
-	 height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .circle-position-1{
 	position: relative;
@@ -50,7 +50,7 @@ body{
     bottom: 0px;
     right: 0;
     background: linear-gradient(
-151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
+        151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
     border-radius: 50%;
 }
 .circle-2{
@@ -62,19 +62,19 @@ body{
     border-radius: 50%;
     top: -199px;
     background: linear-gradient(
-180deg, #16829A 0%, #074E5E 100%),rgb(121, 231, 255 / 20%);
-   
+        180deg, #16829A 0%, #074E5E 100%),rgb(121, 231, 255 / 20%);
+    
 }
 .shadow-circle{
-	    position: absolute;
-    width: 655px;
-    height: 148px;
-    left: -344px;
-    top: 142px;
-    background: linear-gradient(
-151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
-    filter: blur(60px);
-    border-radius: 50%;
+   position: absolute;
+   width: 655px;
+   height: 148px;
+   left: -344px;
+   top: 142px;
+   background: linear-gradient(
+    151.91deg, #4D4D4D 13.04%, #181818 25.05%, #000000 87.22%);
+   filter: blur(60px);
+   border-radius: 50%;
 }
 .block-generator {
     overflow: hidden;
@@ -99,11 +99,11 @@ body{
 }
 
 .lds-ring {
-     display: none;
-    position: relative;
-    top: -110px;
-    left: -43px;
-    z-index: 100;
+   display: none;
+   position: relative;
+   top: -110px;
+   left: -43px;
+   z-index: 100;
 }
 .lds-ring div {
   box-sizing: border-box;
@@ -129,10 +129,10 @@ body{
 @keyframes lds-ring {
   0% {
     transform: rotate(0deg);
-  }
-  100% {
+}
+100% {
     transform: rotate(360deg);
-  }
+}
 }
 
 .active{
