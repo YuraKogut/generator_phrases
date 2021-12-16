@@ -4,15 +4,13 @@ function randomQuote() {
     return response.json();
   })
   .then((data) => {
-  	let myString = JSON.stringify(data);
+  	let myString = JSON.stringify(data[0].text);
    document.getElementById('quotation').innerHTML=myString;
-
   }).catch(error =>{
   	console.log(error);
   })
 
 }
-
 randomQuote();
 
 document.querySelector("button").addEventListener('click', randomQuote)
