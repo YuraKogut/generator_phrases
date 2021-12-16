@@ -13,11 +13,28 @@ function randomQuote() {
   .catch(error =>{
   	console.log(error);
   })
-
 }
+
 // виводимо функцію
 randomQuote();
 //клік обробляємо
 document.querySelector("button").addEventListener('click', randomQuote)
 
 
+$( document ).ready(function(){
+	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
+	    $( ".block-generator" ).fadeOut(); // плавно изменяя прозрачность скрываем все элементы <div>
+	  });
+	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом in
+	    $( ".block-generator" ).fadeIn(2000); // плавно изменяя прозрачность отображаем все элементы <div>
+	  });
+	});
+
+$( document ).ready(function(){
+	  $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
+	      $( ".lds-ring" ).delay(100).fadeOut(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	  });
+	   $( ".button" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
+	      $( ".lds-ring" ).delay(1000).fadeIn(300) // плавно изменяя прозрачность скрываем все элементы <div>
+	  });
+	});
